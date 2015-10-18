@@ -92,6 +92,9 @@
 		#include "../../Common/Common.h"
 
 		#if (BOARD == BOARD_NONE)
+		    || (BOARD == BOARD_LEONARDO)
+		    || (BOARD == BOARD_MICRO)
+		    || (BOARD == BOARD_POLOLUMICRO)
 			#define BUTTONS_BUTTON1  0
 			static inline void       Buttons_Init(void) {};
 			static inline uint_reg_t Buttons_GetStatus(void) { return 0; };

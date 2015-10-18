@@ -100,6 +100,9 @@
 		#include "../../Common/Common.h"
 
 		#if (BOARD == BOARD_NONE)
+		    || (BOARD == BOARD_LEONARDO)
+		    || (BOARD == BOARD_MICRO)
+		    || (BOARD == BOARD_POLOLUMICRO)
 			#define JOY_UP           0
 			#define JOY_DOWN         0
 			#define JOY_LEFT         0

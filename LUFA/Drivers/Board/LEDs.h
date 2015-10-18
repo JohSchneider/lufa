@@ -207,6 +207,8 @@
 			#include "AVR8/YUN/LEDs.h"
 		#elif (BOARD == BOARD_MICRO)
 			#include "AVR8/MICRO/LEDs.h"
+		#elif (BOARD == BOARD_POLOLUMICRO)
+			#include "AVR8/POLOLUMICRO/LEDs.h"
 		#elif (BOARD == BOARD_XPLAINED_MINI)
 			#include "AVR8/XPLAINED_MINI/LEDs.h"
 		#else
